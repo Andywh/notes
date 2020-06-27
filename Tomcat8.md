@@ -65,5 +65,10 @@ Wrapper
 	List<Servlet> servlets;
 ```
 
+### tomcat 模块分层
 
+![image-20200624231341750](/Users/xmly/Documents/imgs/tomcat-modules.png)
 
+### Service 包含内容
+
+一个 Service 都包含着多个连接器组件 Connector(Coyote 实现) 和一个容器组件 Container。在 Tomcat 启动的时候，会初始化一个 catalina 的实例。
